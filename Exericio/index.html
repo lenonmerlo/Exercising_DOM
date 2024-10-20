@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br
+">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalação do Time</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escalação do Time</h1>
+        <h2>Escalar Jogador(a)</h2>
+        <input type="text" id="posicao" placeholder="Posição do(a) Jogador(a)" required>
+        <input type="text" id="nome" placeholder="Nome do(a) jogador(a)" required>
+        <input type="number" id="camisa" placeholder="Número da camisa" required>
+        <button id="escalar">Escalar</button>
+
+        <h2>Remover Jogador(a)</h2>
+        <input type="number" id="removerCamisa" placeholder="Número da camisa para remover" required>
+        <button id="remover">Remover</button>
+
+        <h2>Escalação</h2>
+        <ul id="escalacao"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
